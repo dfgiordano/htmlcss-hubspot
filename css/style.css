@@ -1,0 +1,174 @@
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.rel {
+    position:relative
+}
+.w-70 {
+    width: 70%;
+    margin:auto;
+}
+.w-50 {
+    width: 50%;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.blue-t {
+    color:#33475B;
+}
+.text-c {
+    text-align: center;
+}
+/* header */
+header {
+    height: 800px;
+    background-color: cyan;
+}
+a {
+    text-decoration: none;
+}
+
+.container-h {
+    position: fixed;
+    left: 15%;
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    background-color: #F4F9FD;
+    z-index: 2;
+}
+.top-l {
+    width: 30%;
+    float: left;
+    left: 0;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: cornflowerblue;
+}
+li {
+    display: inline-block;
+    padding-left: 10px;
+}
+.top-r {
+    width: 30%;
+    float: right;
+    right: 0;
+    text-align: right;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: cornflowerblue;
+}
+.btn {
+    border: 1px solid #F7775A;
+    line-height: 40px;
+    padding: 1px 8px 1px;
+    border-radius: 5px;
+}
+.btn-w {
+    margin:0 20px;
+    color: #F7775A;
+    background-color: white;
+}
+.btn-o {
+    color: white;
+    background-color: #F7775A;
+}
+#search {
+    color: #75CAD9;
+}
+#eng {
+    border-right: 1px solid grey;
+    height: 5px;
+    padding-left: 5px;
+}
+/* jumbotron */
+.jumbotron {
+    padding-top : 80px;
+}
+.header-j {
+    width: 70%;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    background-color: #F4F9FD;
+}
+.logo {
+    width: 10%;
+    background-color: brown;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.right-header-j {
+    width: 60%;
+    position: absolute;
+    right : 0;
+    top: 0;
+    text-align: right;
+    background-color: crimson;
+}
+.jumb-middle {
+    width: 100%;
+    height: 700px;
+    background-color: #FEF5EF;
+    background-image: url('../img/jumbotron.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1 {
+    font-size: 55px;
+    line-height: 60px;
+    padding-top: 50px;
+}
+.green-line {
+    width: 100%;
+    height: 100px;
+    background-color: #AFEBE4;
+    position: absolute;
+    bottom: -1%;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+}
+#big-btn {
+    display: inline-block;
+    padding: 15px;
+    line-height: 30px;
+}
+.jumb-middle .big-p {
+    font-size: 19px;
+    line-height: 30px;
+    padding: 30px 0; 
+}
+.small-p {
+    font-size: 15px;
+    padding-top: 30px;
+}
+/* main */
+.section1 {
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+    background-color: chartreuse;
+}
+.cube {
+    padding-top: 100px;
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+h2 {
+    font-size: 30px;
+}
+.section1 > p {
+    font-size: 18px;
+    padding-top : 40px;
+}
