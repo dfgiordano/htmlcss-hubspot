@@ -9,8 +9,11 @@
     position:relative
 }
 .w-70 {
-    width: 70%;
+    width: 60%;
     margin:auto;
+}
+.float-sx {
+    float: left;
 }
 .w-50 {
     width: 50%;
@@ -26,6 +29,10 @@
 .text-c {
     text-align: center;
 }
+.btn:hover {
+    background-color: rgba(247, 119, 90, 0.8);
+    border-color: rgba(247, 119, 90, 0.8);
+}
 /* header */
 header {
     height: 800px;
@@ -34,7 +41,9 @@ header {
 a {
     text-decoration: none;
 }
-
+a:hover:not(.btn){
+    text-decoration: underline;
+}
 .container-h {
     position: fixed;
     left: 15%;
@@ -67,15 +76,15 @@ li {
     background-color: cornflowerblue;
 }
 .btn {
-    border: 1px solid #F7775A;
     line-height: 40px;
     padding: 1px 8px 1px;
     border-radius: 5px;
 }
-.btn-w {
+#btn-w {
     margin:0 20px;
     color: #F7775A;
     background-color: white;
+    border: 1px solid #F7775A;
 }
 .btn-o {
     color: white;
@@ -171,4 +180,57 @@ h2 {
 .section1 > p {
     font-size: 18px;
     padding-top : 40px;
+}
+.section2 {
+    height: 400px;
+    background-color: lightgreen;
+}
+.block1 {
+    width: 25%; 
+    height: 350px;
+    padding-top: 50px;
+    margin-left: 80px;
+    background-color: white;
+}
+.block2 {
+    width: 60%; 
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 30px;
+    background-color: lightsalmon;
+}
+#book {
+    display: block;
+    height: 120px;
+    margin: auto;
+}
+.btn-center {
+    display: block;
+    width: 150px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.section2 h4 {
+    font-size: 26px;
+}
+.section2 p {
+    font-size: 16px;
+    width: 98%;
+    padding-top: 30px;
+}
+.title-mid {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 40px;
+}
+hr {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: 40px;
 }
