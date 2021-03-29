@@ -213,10 +213,6 @@ h1 {
 h2 {
     font-size: 30px;
 }
-/* .section1 > p {
-    font-size: 18px;
-    padding-top : 40px;
-} */
 .section2 {
     margin-top: 50px;
     background-color: white;
@@ -308,7 +304,7 @@ hr {
 .list {
     width: 85%;
 }
-ul.list {
+li {
     list-style: none;
   }
 ul.list li::before {
@@ -325,7 +321,7 @@ ul.list li::before {
 /* gradient */
 .gradient {
     width: 100%;
-    height: 800px;
+    height: 750px;
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 .middle-title {
@@ -336,9 +332,137 @@ ul.list li::before {
     font-size: 18px;
     padding-bottom: 50px;
 }
-.table > div {
-    display: inline; 
+.square {
+    width: 300px;
+    height: 200px;
 }
-.table > div:nth-child(4) {
-    display: block;
+.square-top {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.square-top-l {
+    border-left: none;
+}
+.square-top-r {
+    border-right: none;
+}
+.table div.square-bottom:not(:last-child) {
+    border-right: 1px solid white;
+}
+.pdn-t-20 {
+    padding-top: 20px;
+}
+.square p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+.square h5 {
+    font-size: 35px;
+}
+/* last-section */
+.last-section {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.last-container {
+    margin-top: 70px;
+    background-color: white;
+}
+.last-block1 {
+    width: 15%;
+    left: 5%;
+}
+.last-block1 h5 {
+    font-size: 40px;
+}
+.list-no-icon {
+    margin-top: 25px;
+}
+.last-block2 {
+    width: 50% ;
+    right: 15%;
+    line-height: 40px;
+}
+.last-block2 > div {
+    display: inline-block;
+}
+#atlasian{
+    height: 15px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+#doordash {
+    height: 15px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+#crowd {
+    height: 35px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+#purple {
+    height: 35px;
+    vertical-align: middle;
+}
+#subaru {
+    height: 45px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+#wistia {
+    height: 25px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+#classpass {
+    height: 50px;
+    padding-right: 25px;
+}
+#vmware {
+    height: 25px;
+    vertical-align: middle;
+}
+.last-block3 {
+    width: 60%;
+    top:250px;
+}
+.last-block3 h2 {
+    font-size: 30px;
+}
+#woman {
+    height: 400px;
+}
+.woman {
+    right: 9%;
+    top: 220px;
+}
+/* footer */
+footer {
+    height: 500px;
+    background-color: #32495B;
+}
+.footer-section {
+    height: 300px;
+}
+.elenco-footer {
+    width: 20%;
+    height: 400px;
+    margin: 33px;
+}
+.elenco-footer h6 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.elenco-footer li:not(.btn-blue) {
+    padding: 10px 0 10px 0;
+}
+.btn-blue {
+    font-size: 14px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid white;
+    background-color: white;
 }
