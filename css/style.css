@@ -37,10 +37,19 @@
 .float-sx {
     float: left;
 }
+.float-dx {
+    float: right;
+}
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+.mrg-r-5 {
+    margin-right: 5%;
+}
+.mrg-l-5 {
+    margin-left: 5%;;
 }
 .pdn-l-10{
     padding-left: 10px;
@@ -93,7 +102,7 @@
 }
 .simple-link:hover{
     text-decoration: underline;
-} */
+}
 /* header */
 header {
     height: 800px;
@@ -102,19 +111,14 @@ header {
     position: fixed;
     width: 100%;
     height: 80px;
-    margin: auto;
+    margin:auto;
     line-height: 80px;
     border-bottom: 1px solid #33475B;
     background-color: #F4F9FD;
     z-index: 2;
 }
-.container-70 {
-    width: 70%;
-    left: 15%;
-}
 .top-l {
     width: 30%;
-    float: left;
     left: 0;
     line-height: 80px;
     vertical-align: middle;
@@ -127,7 +131,6 @@ header {
 }
 .top-r {
     width: 30%;
-    float: right;
     right: 0;
     text-align: right;
     line-height: 80px;
@@ -141,10 +144,8 @@ header {
     padding-top: 60px;
 }
 .header-j {
-    width: 70%;
     height: 80px;
     line-height: 80px;
-    margin: auto;
 }
 .logo {
     width: 10%;
@@ -155,7 +156,6 @@ img {
 }
 .right-header-j {
     width: 60%;
-    position: absolute;
     right : 0;
     top: 0;
     text-align: right;
@@ -177,7 +177,6 @@ h1 {
     width: 100%;
     height: 100px;
     background-color: #AFEBE4;
-    position: absolute;
     bottom: -1%;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B;
@@ -237,7 +236,7 @@ h2 {
 }
 .block1 > div.rel > a.abs {
     top: 25px;
-    left: 45px;
+    left: 90px;
 }
 #book {
     display: block;
@@ -260,7 +259,7 @@ h4 {
 }
 .section2 p {
     font-size: 16px;
-    width: 98%;
+    width: 85%;
     padding-top: 30px;
 }
 .title-mid {
@@ -271,8 +270,10 @@ h4 {
 hr {
     display: inline-block;
     width: 55%;
+    height: 3px;
     vertical-align: middle;
     margin-left: 40px;
+    background-color:grey;
 }
 .list-with-icon {
     padding-top: 30px;
@@ -288,15 +289,7 @@ hr {
     background-color: white;
     box-shadow: 0 0 11px #eaf0f6;
 }
-.mrg-r-5 {
-    margin-right: 5%;
-}
-.mrg-l-5 {
-    margin-left: 5%;;
-}
-.float-dx {
-    float: right;
-}
+
 .images-middle {
     display: block;
     height: 150px;
