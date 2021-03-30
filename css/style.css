@@ -100,9 +100,6 @@
 .simple-link {
     text-decoration: none;
 }
-.simple-link:visited {
-    text-decoration: none;
-}
 .simple-link:hover{
     text-decoration: underline;
     color: #7fd1de;
@@ -123,7 +120,7 @@ header {
 }
 .top-l {
     width: 30%;
-    left: 0;
+    float:left;
     line-height: 80px;
     vertical-align: middle;
 }
@@ -135,7 +132,7 @@ header {
 }
 .top-r {
     width: 30%;
-    right: 0;
+    float: right;
     text-align: right;
     line-height: 80px;
     vertical-align: middle;
@@ -150,6 +147,7 @@ header {
 .header-j {
     height: 80px;
     line-height: 80px;
+    position: relative;
 }
 .logo {
     width: 10%;
@@ -160,6 +158,7 @@ header {
 }
 .right-header-j {
     width: 60%;
+    position: absolute;
     right : 0;
     top: 0;
     text-align: right;
@@ -167,6 +166,7 @@ header {
 .jumb-middle {
     width: 100%;
     height: 700px;
+    position: relative;
     background-image: url('../img/jumbotron.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -180,8 +180,9 @@ h1 {
 .green-line {
     width: 100%;
     height: 100px;
+    position: absolute;
+    bottom: -2%;
     background-color: #AFEBE4;
-    bottom: -1%;
     border-top: 3px solid #33475B;
     border-bottom: 3px solid #33475B;
 }
@@ -224,6 +225,7 @@ h2 {
 }
 .block1 {
     width: 25%; 
+    float:left;
     padding-top: 50px;
     margin-left: 80px;
     margin-bottom:10px;
@@ -231,6 +233,7 @@ h2 {
 }
 .block2 {
     width: 60%; 
+    float:left;
     padding-top: 50px;
     margin-left: 30px;
 }
@@ -286,10 +289,11 @@ h4 {
 }
 .block3 {
     width: 30%;
+    float: left;
+    margin:auto;
     background-color: white;
     box-shadow: 0 0 11px #eaf0f6;
 }
-
 .images-middle {
     display: block;
     height: 150px;
@@ -386,7 +390,7 @@ ul.list li::before {
 .last-block2 {
     width: 50% ;
     right: 15%;
-    line-height: 40px;
+    line-height: 60px;
 }
 .last-block2 > div {
     display: inline-block;
@@ -411,7 +415,7 @@ ul.list li::before {
     vertical-align: middle;
 }
 #subaru {
-    height: 45px;
+    height: 40px;
     vertical-align: middle;
     padding-right: 25px;
 }
@@ -454,6 +458,7 @@ footer {
 }
 .footer-section {
     height: 300px;
+    font-size: 18px;
 }
 .footer-list {
     width: 20%;
@@ -472,6 +477,7 @@ footer {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
+    
     border:1px solid #cbd6e2;
     background-color: #cbd6e2;
 }
@@ -482,13 +488,12 @@ footer {
     padding-top: 20px;
 }
 .last-menu h6 {
-    font-size: 20px;
+    font-size: 16px;
 }
 .block-footer-right {
     position: absolute;
     right: 0;
-    top:0;
-    padding-top: 35px;
+    top:30%;
 }
 .block-footer-right > a {
     padding-right: 25px;
