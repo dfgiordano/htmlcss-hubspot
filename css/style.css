@@ -199,7 +199,7 @@ h1 {
 }
 .small-p {
     font-size: 15px;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 /* main */
 .first-container {
@@ -452,17 +452,18 @@ ul.list li::before {
 }
 /* footer */
 footer {
-    height: 600px;
+    height: 650px;
     color: #cbd6e2;
     background-color: #32495B;
 }
 .footer-section {
-    height: 300px;
     font-size: 18px;
 }
 .footer-list {
     width: 20%;
-    margin: 33px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
 }
 .footer-list h6 {
     font-size: 20px;
@@ -477,11 +478,16 @@ footer {
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    
     border:1px solid #cbd6e2;
     background-color: #cbd6e2;
 }
+.languages {
+    margin-top: 20px;
+}
 .footer-section hr {
+    margin-top: 20px;
+}
+.last-menu {
     margin-top: 20px;
 }
 .last-menu img {
