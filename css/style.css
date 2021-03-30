@@ -100,8 +100,12 @@
 .simple-link {
     text-decoration: none;
 }
+.simple-link:visited {
+    text-decoration: none;
+}
 .simple-link:hover{
     text-decoration: underline;
+    color: #7fd1de;
 }
 /* header */
 header {
@@ -150,7 +154,7 @@ header {
 .logo {
     width: 10%;
 }
-img {
+.logo img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -263,7 +267,7 @@ h4 {
     font-size: 20px;
     padding-top: 40px;
 }
-hr {
+.block2 hr {
     display: inline-block;
     width: 55%;
     height: 3px;
@@ -418,6 +422,7 @@ ul.list li::before {
 }
 #classpass {
     height: 50px;
+    vertical-align: middle;
     padding-right: 25px;
 }
 #vmware {
@@ -431,6 +436,9 @@ ul.list li::before {
 .last-block3 h2 {
     font-size: 30px;
 }
+.last-block3 p {
+    font-size: 15px;
+}
 #woman {
     height: 400px;
 }
@@ -440,22 +448,22 @@ ul.list li::before {
 }
 /* footer */
 footer {
-    height: 500px;
+    height: 600px;
+    color: #cbd6e2;
     background-color: #32495B;
 }
 .footer-section {
     height: 300px;
 }
-.elenco-footer {
+.footer-list {
     width: 20%;
-    height: 400px;
     margin: 33px;
 }
-.elenco-footer h6 {
+.footer-list h6 {
     font-size: 20px;
     padding-bottom: 15px;
 }
-.elenco-footer li:not(.btn-blue) {
+.footer-list li {
     padding: 10px 0 10px 0;
 }
 .btn-blue {
@@ -463,6 +471,25 @@ footer {
     width: 70%;
     padding: 10px;
     border-radius: 5px;
-    border:1px solid white;
-    background-color: white;
+    margin-bottom: 10px;
+    border:1px solid #cbd6e2;
+    background-color: #cbd6e2;
+}
+.footer-section hr {
+    margin-top: 20px;
+}
+.last-menu img {
+    padding-top: 20px;
+}
+.last-menu h6 {
+    font-size: 20px;
+}
+.block-footer-right {
+    position: absolute;
+    right: 0;
+    top:0;
+    padding-top: 35px;
+}
+.block-footer-right > a {
+    padding-right: 25px;
 }
