@@ -142,7 +142,7 @@ header {
 }
 /* jumbotron */
 .jumbotron {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 .header-j {
     height: 80px;
@@ -204,6 +204,7 @@ h1 {
 /* main */
 .first-container {
     background-color: #F4F9FD;
+    padding-bottom: 15px;
 }
 .section1 {
     width: 50%;
@@ -293,6 +294,9 @@ h4 {
     margin:auto;
     background-color: white;
     box-shadow: 0 0 11px #eaf0f6;
+}
+.block3:nth-child(2) {
+    margin: 0 5%;
 }
 .images-middle {
     display: block;
@@ -452,7 +456,6 @@ ul.list li::before {
 }
 /* footer */
 footer {
-    height: 650px;
     color: #cbd6e2;
     background-color: #32495B;
 }
@@ -482,7 +485,7 @@ footer {
     background-color: #cbd6e2;
 }
 .languages {
-    margin-top: 20px;
+    padding-bottom: 20px;
 }
 .footer-section hr {
     margin-top: 20px;
